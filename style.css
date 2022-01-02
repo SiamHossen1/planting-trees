@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #238d23;
+    display: flex;
+}
+img{
+    margin-top: 15px;
+   margin-left: 70px;
+    width: 80px;
+    height: 50px;
+}
+nav{
+    margin-top: 25px;
+    margin-left: 550px;
+}
+nav a{
+    margin-left: 25px;
+    color: gold;
+    font-size: 25px;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-size: 30px;
+    transition: .7s linear;
+}
+/* header section ends  */
+
+.home{
+    width: 100%;
+    height: 563px;
+    background-image: url(images/home-bg.jpg);
+    background-size: cover;
+}
+
+.home p{
+    text-align: center;
+    padding-top: 230px;
+    font-size: 40px;
+}
+.forests{
+    color: rgb(197, 23, 23);
+}
+.ourselves{
+    color: gray;
+}
+/* home section ends  */
+
+.why-tress{
+    width: 100%;
+    height: 642px;
+    background-image: url(images/why-trees-bg.jpg);
+    background-size: cover;
+}
+
+.why-tress h1{
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.why-heading{
+    color: gold;
+}
+
+.trees-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    box-shadow: 1px 2px 7px 6px rgba(19,107,29,0.35);
+    width: 500px;
+    height: 200px;
+    margin: 120px 20px 50px 50px;
+}
+
+.box1 p{
+    color: #F5DEB3;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.box2{
+    box-shadow: 1px 2px 7px 6px rgba(19,107,29,0.35);
+    width: 500px;
+    height: 200px;
+    margin: 120px 50px 50px 50px;
+}
+
+.box2 p{
+    color: #F5DEB3;
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* why tress end  */
+
+.plant-trees{
+    width: 100%;
+    height: 642px;
+    background-image: url(images/plat-trees-bg.jpg);
+    background-size: cover;
+}
+.plant-trees h1{
+    color: rgb(68, 138, 68);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.plant-trees .gold{
+    color: gold;
+}
+
+.warning{
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 80px;
+    line-height: 50px;
+}
+
+.warning span {
+    color: rgb(163, 43, 43) ;
+}
+
+.stop-cutting{
+    color : white;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.stop-cutting p{
+    font-size: 30px;
+    color: rgb(163, 43, 43);
+    padding-left: 120px;
+}
+
+.stop-cutting img{
+    width: 300px;
+    height: 200px;
+}
+
+.stop-cutting1{
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.stop-cutting1 p{
+    font-size: 30px;
+    color: gold;
+    padding-left: 120px;
+}
+
+.stop-cutting1 img{
+    width: 300px;
+    height: 200px;
+}
+
+.stop-cutting2{
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.stop-cutting2 p{
+    font-size: 30px;
+    color: rgb(30, 110, 32);
+    padding-left: 80px;
+}
+
+.stop-cutting2 img{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+.flex{
+    display: flex;
+}
